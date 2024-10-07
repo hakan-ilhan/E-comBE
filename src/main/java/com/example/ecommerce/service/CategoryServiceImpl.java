@@ -25,7 +25,7 @@ public class CategoryServiceImpl implements CategoryService{
         if(category.isPresent()){
             return category.get();
         }
-        throw new RuntimeException("Category with given id is not exist.");
+        throw new RuntimeException("Category with given id is not exist");
     }
 
     @Override
